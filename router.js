@@ -1,4 +1,4 @@
 module.exports = (app) => {
 
-    app.use('/', require('./routes/giant'));
+    app.use('/', require('./routes/routes'));
 }
