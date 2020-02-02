@@ -11,6 +11,7 @@ body {
     height: 100%;
     width: 100%;
     box-sizing: border-box;
+    display: grid;
 }
 
 a:hover, a:visited, a:link, a:active {
@@ -18,6 +19,14 @@ a:hover, a:visited, a:link, a:active {
     color: white;
 }
 
+.giant {
+    width: 100%;
+    height: auto;
+    display: grid;
+    position: absolute;
+    justify-items: center;
+    margin-top: 1%;
+}
 
 .test {
     height: 100%;
@@ -58,16 +67,6 @@ a:hover, a:visited, a:link, a:active {
     
 }
 
-.select-item:nth-child(1){
-    background-image: url('/img/Mask_Group_2_bp_pattern.png'); 
-}
-.select-item:nth-child(2){
-    background-image: url('/img/Mask_Group_1_bq_pattern.png'); 
-}
-.select-item:nth-child(3){
-    background-image: url('/img/Mask_Group_3_br_pattern.png'); 
-}
-
 .item-inner {
     height: 100%;
     width: 100%;
@@ -75,27 +74,33 @@ a:hover, a:visited, a:link, a:active {
     padding: 0em;
 }
 .select-item:nth-child(1){
-    background-image: url('/img/Mask_Group_2_bp_pattern.png'); 
+    background-image: url('/img/residential.png'); 
+    background-repeat: no-repeat;
+    background-size: 400%;
 }
 
 
 .select-item:nth-child(2){
-    background-image: url('/img/Mask_Group_1_bq_pattern.png'); 
+    background-image: url('/img/city.png'); 
+    background-repeat: no-repeat;
+    background-size: 400%;
 }
 
 
 .select-item:nth-child(3){
-    background-image: url('/img/Mask_Group_3_br_pattern.png'); 
+    background-image: url('/img/parts.png'); 
+    background-repeat: no-repeat;
+    background-size: 400%;
 }
 
 .select-item:nth-child(1):hover{
-    background-size: 110%; 
+    background-size: 500%; 
 }
 .select-item:nth-child(2):hover{
-    background-size: 110%; 
+    background-size: 500%; 
 }
 .select-item:nth-child(3):hover{
-    background-size: 110%; 
+    background-size: 500%; 
 }
 .lines {
     padding: 21em 2em 0em 2em;
