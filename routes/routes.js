@@ -19,8 +19,33 @@ router.get('/residential/air-conditioners', (req, res) => {
 router.get('/residential/ductless-systems', (req, res) => {
     res.render('ductless-systems', { pageTitle: 'GIANT HVAC | Residential | Ductless Systems'},);
 });
-router.get('/residential/head-pumps', (req, res) => {
-    res.render('head-pumps', { pageTitle: 'GIANT HVAC | Residential | Heat Pumps'},);
+
+router.get('/residential/heat-pumps', (req, res) => {
+    res.render('heat-pumps', { pageTitle: 'GIANT HVAC | Residential | Heat Pumps'},);
+});
+
+router.get('/residential/furnaces', (req, res) => {
+    res.render('furnaces', { pageTitle: 'GIANT HVAC | Residential | Furnaces'},);
+});
+
+router.get('/residential/water-heater', (req, res) => {
+    res.render('water-heater', { pageTitle: 'GIANT HVAC | Residential | Water Heaters'},);
+});
+
+router.get('/residential/plumbing', (req, res) => {
+    res.render('plumbing', { pageTitle: 'GIANT HVAC | Residential | Plumbing'},);
+});
+
+router.get('/residential/generators', (req, res) => {
+    res.render('generators', { pageTitle: 'GIANT HVAC | Residential | Generators'},);
+});
+
+router.get('/residential/panel-replacement', (req, res) => {
+    res.render('panel-replacement', { pageTitle: 'GIANT HVAC | Residential | Panel-replacement'},);
+});
+
+router.get('/residential/thermostats', (req, res) => {
+    res.render('thermostats', { pageTitle: 'GIANT HVAC | Residential | thermostats'},);
 });
 
 module.exports = router;
