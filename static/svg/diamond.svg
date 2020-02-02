@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="42" height="42" viewBox="0 0 42 42">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_77" data-name="Rectangle 77" width="42" height="42" transform="translate(1084 464)" fill="#fff" stroke="#707070" stroke-width="1"/>
+    </clipPath>
+  </defs>
+  <g id="Mask_Group_12" data-name="Mask Group 12" transform="translate(-1084 -464)" clip-path="url(#clip-path)">
+    <g id="diamond" transform="translate(1082.75 462.177)">
+      <line id="Line_17" data-name="Line 17" x2="40.327" transform="translate(2.086 15.297)" fill="none" stroke="#111" stroke-miterlimit="10" stroke-width="1.391"/>
+      <path id="Path_145" data-name="Path 145" d="M22.25,41.718,29.2,15.3,22.25,3.477" fill="none" stroke="#111" stroke-miterlimit="10" stroke-width="1.391"/>
+      <path id="Path_146" data-name="Path 146" d="M22.25,3.477,15.3,15.3,22.25,41.718" fill="none" stroke="#111" stroke-miterlimit="10" stroke-width="1.391"/>
+      <line id="Line_18" data-name="Line 18" x2="6.258" y2="11.82" transform="translate(9.039 3.477)" fill="none" stroke="#111" stroke-miterlimit="10" stroke-width="1.391"/>
+      <line id="Line_19" data-name="Line 19" x1="6.258" y2="11.82" transform="translate(29.203 3.477)" fill="none" stroke="#111" stroke-miterlimit="10" stroke-width="1.391"/>
+      <path id="Path_147" data-name="Path 147" d="M42.413,15.3,22.25,41.718,2.086,15.3,9.039,3.477H35.46Z" fill="none" stroke="#111" stroke-linecap="square" stroke-miterlimit="10" stroke-width="1.391"/>
+    </g>
+  </g>
+</svg>

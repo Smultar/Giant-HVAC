@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48">
+  <g id="dashboard-level" transform="translate(-1 -1)">
+    <line id="Line_8" data-name="Line 8" x1="3.278" y1="10.927" transform="translate(20.4 15.8)" fill="none" stroke="#111" stroke-miterlimit="10" stroke-width="2"/>
+    <circle id="Ellipse_2" data-name="Ellipse 2" cx="23" cy="23" r="23" transform="translate(2 2)" fill="none" stroke="#111" stroke-linecap="square" stroke-miterlimit="10" stroke-width="2"/>
+    <path id="Path_130" data-name="Path 130" d="M31.467,33H42.578a16.867,16.867,0,1,0-31.423,0H22.267" transform="translate(-1.867 -1.867)" fill="none" stroke="#111" stroke-linecap="square" stroke-miterlimit="10" stroke-width="2"/>
+    <ellipse id="Ellipse_3" data-name="Ellipse 3" cx="5" cy="4.5" rx="5" ry="4.5" transform="translate(20 27)" fill="none" stroke="#111" stroke-linecap="square" stroke-miterlimit="10" stroke-width="2"/>
+  </g>
+</svg>
