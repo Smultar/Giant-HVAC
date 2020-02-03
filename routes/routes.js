@@ -45,7 +45,15 @@ router.get('/residential/panel-replacement', (req, res) => {
 });
 
 router.get('/residential/thermostats', (req, res) => {
-    res.render('thermostats', { pageTitle: 'GIANT HVAC | Residential | thermostats'},);
+    res.render('thermostats', { pageTitle: 'GIANT HVAC | Residential | Thermostats'},);
+});
+
+router.get('/residential/coupons', (req, res) => {
+    res.render('coupons', { pageTitle: 'GIANT HVAC | Residential | Coupons'},);
+});
+
+router.get('/residential/special-finances', (req, res) => {
+    res.render('special-finances', { pageTitle: 'GIANT HVAC | Residential | Coupons'},);
 });
 
 module.exports = router;

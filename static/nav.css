@@ -69,7 +69,7 @@ nav {
 
 .logo:before {
     content: " ";
-    background: url("/img/Group\ 1.svg");
+    background: url("/svg/giant.svg");
     position: absolute;
     display: block;
     width: 4.5em;
@@ -189,7 +189,7 @@ nav ul li a {
     bottom: 0;
     left: 0;
     width: 0%;
-    background: #FF7933;
+    background: #000000;
     transition: 0.2s;
     margin-top: 5.5em;
 }

@@ -25,6 +25,34 @@ button:focus {
 }
 
 
+footer {
+    background-color: #F6F6F6;
+    height: 20em;
+    width: 100%;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    overflow: hidden;
+}
+
+.footer-col {
+    margin: 5em 5em;
+    align-items: end;
+    justify-content: flex-start;
+}
+
+.footer-col a {
+    margin-top: 0.5em;
+}
+
+.footer-col p {
+    margin-top: 0.5em;
+}
+.top-gap{
+    margin-top: 1em !important;
+}
+
 .view {
     height: 100%;
     width: 100%;
@@ -302,6 +330,11 @@ button:focus {
     font-family:  'Montserrat', sans-serif;
     text-transform: uppercase;
 }
+.cap-400 {
+    font-weight: 400;
+    font-family:  'Montserrat', sans-serif;
+    text-transform: capitalize;
+}
 .cap-600 {
     font-weight: 600;
     font-family:  'Montserrat', sans-serif;
@@ -326,18 +359,26 @@ button:focus {
 
 
 /* Text Size */
+.text-micro {
+font-size: 0.75em;
+margin: 0%;
+}
+
 .text-small {
 font-size: 1em;
 margin: 0%;
 }
+
 .text-medium-micro {
 font-size: 2em;
 margin: 0%;
 }
+
 .text-medium {
 font-size: 2.1875em;
 margin: 0%;
 }
+
 .text-medium-xl {
 font-size: 1.5em;
 margin: 0%;

@@ -31,6 +31,35 @@ button:focus {
     animation: slide-top 1.6s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
 }
 
+footer {
+    background-color: #F6F6F6;
+    height: 20em;
+    width: 100%;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    overflow: hidden;
+}
+
+.footer-col {
+    margin: 5em 5em;
+    align-items: end;
+    justify-content: flex-start;
+}
+
+.footer-col a {
+    margin-top: 0.5em;
+}
+
+.footer-col p {
+    margin-top: 0.5em;
+}
+.top-gap{
+    margin-top: 1em !important;
+}
+
+
 /* Images */
 .family-c {
     height: 120%;
@@ -139,7 +168,7 @@ button:focus {
 }
 .sg7 {
     background-color: white;
-    height: 50em;
+    height: 60em;
     width: 100%;
     box-sizing: border-box;
     display: flex;
@@ -302,6 +331,13 @@ button:focus {
     font-family:  'Montserrat', sans-serif;
     text-transform: uppercase;
 }
+
+.cap-400 {
+    font-weight: 400;
+    font-family:  'Montserrat', sans-serif;
+    text-transform: capitalize;
+}
+
 .cap-600 {
     font-weight: 600;
     font-family:  'Montserrat', sans-serif;
@@ -326,18 +362,26 @@ button:focus {
 
 
 /* Text Size */
+.text-micro {
+    font-size: 0.75em;
+    margin: 0%;
+}
+    
 .text-small {
 font-size: 1em;
 margin: 0%;
 }
+
 .text-medium-micro {
 font-size: 2em;
 margin: 0%;
 }
+
 .text-medium {
 font-size: 2.1875em;
 margin: 0%;
 }
+
 .text-medium-xl {
 font-size: 1.5em;
 margin: 0%;
@@ -347,14 +391,17 @@ margin: 0%;
 font-size: 3em;
 margin: 0%;
 }
+
 .text-glarge {
 font-size: 5em;
 margin: 0%;
 }
+
 .text-xlarge {
 font-size: 6em;
 margin: 0%;
 }
+
 .text-list {
 font-size: 1em;
 margin: 0%;
@@ -368,15 +415,16 @@ margin-left: 1em;
     justify-content: center;
     padding: 0% 12% 0% 12%;
 }
+
 .info-bit-2 {
     justify-content: center;
     padding: 0% 12% 0% 8%;
 }
+
 .info-bit-3 {
     justify-content: center;
     padding: 0% 3% 0% 3%;
 }
-
 
 .about {
     justify-content: center;
@@ -384,10 +432,10 @@ margin-left: 1em;
 }
 
 /* List Items */
-
 .list-container ul {
     padding: 0;
 }
+
 .list-container ul li{
     align-items: center;
     display: flex;
@@ -403,7 +451,6 @@ margin-left: 1em;
 .list:nth-child(2) {
     padding-left: 5em;
 }
-
 /* ---------------------- */
 
 
@@ -413,6 +460,7 @@ margin-left: 1em;
     margin: 5em 5em;
     fill: white;
 }
+
 .icon-form {
     margin: 2em 2em;
     fill: white;
