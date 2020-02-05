@@ -103,10 +103,11 @@ footer {
     box-sizing: border-box;
     display: flex;
     flex-direction: column;
-    align-items: left;
+    align-items: start;
     justify-items: center;
     justify-content: center;
     align-content: center;
+    
 }
 
 .sg2 {
@@ -416,8 +417,6 @@ margin-left: 1em;
 }
 /* ---------------------- */
 
-
-
 .info-bit {
     justify-content: center;
     padding: 0% 12% 0% 12%;
@@ -435,7 +434,7 @@ margin-left: 1em;
 
 .about {
     justify-content: center;
-    padding: 30% 5% 0% 3%;
+    padding: 25% 5% 0% 3%;
 }
 
 /* List Items */
@@ -482,24 +481,6 @@ margin-left: 1em;
     justify-content: center;
 }
 /* ---------------------- */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /* Animations */
 @-webkit-keyframes slide-top {
