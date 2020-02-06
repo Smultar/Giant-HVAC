@@ -1,3 +1,9 @@
+<div class="sg11">
+  <p class="normal-400 white text-small" id="">See what other people say about <span class="upper-800">giant</span></p>
+  <p class="cap-800 white text-medium" id="Author">Craig Marshall</p>
+  <p class="normal-200 white text-small" id="Comment">Went to turn on the AC and it was blowing hot air all day. I called these guys to schedule a maintenance check and they came a few hours later. They were in and out and my AC is working fine now. 5 stars, would highly recommend!!!</p>
+  <img class="line-3" src="/svg/blue-line.svg">
+</div>
 <footer>
   <div class="align-group-column footer-col">
       <img src="/svg/giant.svg">
@@ -26,3 +32,31 @@
     <img style="width: 10em;" src="/svg/life-time.svg">
   </div>
 </footer>
+
+<script>
+
+    var reviewsAuthors = ["J Villalva","Craig Marshall", "Luis Santiago", "Viper PSO", "Susan Lawless"]
+    var reviewsComments = ["Very professional and helpful. Great pricing and guaranteed work makes it all the better.", "Went to turn on the AC and it was blowing hot air all day. I called these guys to schedule a maintenance check and they came a few hours later. They were in and out and my AC is working fine now. 5 stars, would highly recommend!!!", "Great service they get the job done right.", "First day the heat came in, I noticed my AC wasn't even working. Looked up some HVAC services and decided on these guys. Didn't take long for them to show up and now my AC is working again! Thanks guys", "I would call them again. Fast & the service was great. Also, I thought prices were pretty fair. Highly recommend"]
+
+    var author = document.getElementById("Author");
+    var comment = document.getElementById("Comment");
+
+    var count = 0;
+
+    setInterval(() => {
+      
+      if (count >= 5) {
+        count = 0;
+
+        author.innerHTML = reviewsAuthors[count];
+        comment.innerHTML = reviewsComments[count];
+        count++;
+      } else {
+
+        author.innerHTML = reviewsAuthors[count];
+        comment.innerHTML = reviewsComments[count];
+        count++;
+      }
+
+    }, 5000);
+</script>
