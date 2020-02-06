@@ -56,8 +56,21 @@ router.get('/residential/special-finances', (req, res) => {
     res.render('special-finances', { pageTitle: 'GIANT HVAC | Residential | Coupons'},);
 });
 
+router.get('/commercial', (req, res) => {
+    res.render('com', { pageTitle: 'GIANT HVAC | Commercial'},);
+});
+
+
+
+
+
+
+
+
 router.get('*', (req, res) => {
     res.render('404', { pageTitle: 'GIANT HVAC | Residential | Coupons'},);
 });
+
+
 
 module.exports = router;

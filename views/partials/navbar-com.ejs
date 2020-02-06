@@ -1,0 +1,76 @@
+<link rel="stylesheet" href="/nav.css">
+<nav class="fixed-top" id="bruh" onload="fade()">
+    <div class="top-line"></div>
+    <input type="checkbox" id="nav" class="hidden" onclick="myFunction()">
+    <label for="nav" class="nav-btn">
+        <i></i>
+        <i></i>
+        <i></i>
+    </label>
+    <div class="nav-wrapper">
+        <span class="logo"><a href="/">| commercial</a></span>
+        <ul>
+            <li><a class="menu-link" href="/commercial">home</a></li>
+            <li><a class="menu-link" href="/commercial/about">about</a></li>
+
+            <li>
+                <div class="dropdown">
+                    <button class="dropbtn menu-link">Heating</button>
+                    <div class="dropdown-content">
+                        <a href="/commercial/furnaces">furnaces</a>
+                        <a href="/commercial/water-heater">water-heaters</a>
+                        <a href="/commercial/heat-pumps">heat-pumps</a>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="dropdown">
+                    <button class="dropbtn menu-link">Cooling</button>
+                    <div class="dropdown-content">
+                        <a href="/commercial/air-conditioners">air-conditioners</a>
+                        <a href="/commercial/ductless-systems">ductless-systems</a>
+                    </div>
+                </div>
+            </li>
+            <li><a class="menu-link" href="/commercial/plumbing">plumbing</a></li>
+            <li>
+                <div class="dropdown">
+                    <button class="dropbtn menu-link">electrical</button>
+                    <div class="dropdown-content">
+                        <a href="/commercial/generators">generators</a>
+                        <a href="/commercial/panel-replacement">panel-replacement</a>
+                        <a href="/commercial/thermostats">thermostats</a>
+                    </div>
+                </div>
+            </li>
+            <li><a class="menu-link" href="https://ftlfinance.com/" target="_blank">financing</a></li>
+        </ul>
+    </div>
+</nav>
+
+<script>
+    function myFunction() {
+        // Get the checkbox
+        var checkBox = document.getElementById("nav");
+        // Get the output text
+        var fixedClass = document.getElementById("bruh");
+        console.log("something")
+        // If the checkbox is checked, display the output text
+        if (checkBox.checked == true) {
+            fixedClass.style.height = "100%";
+            fixedClass.style.padding = "0%";
+            fixedClass.style.filter = "none";
+        } else {
+            fixedClass.style.height = "auto";
+            fixedClass.style.padding = "8px";
+
+        }
+    }
+
+    function fade() {
+        if (screen.width < 1200) {
+            var fixedClass = document.getElementById("bruh");
+            fixedClass.style.filter = "0";
+        }
+    }
+</script>
