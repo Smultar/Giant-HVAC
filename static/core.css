@@ -48,6 +48,14 @@ footer {
     justify-content: flex-start;
 }
 
+.footer-col:nth-child(5) {
+    margin: 5em 5em;
+    align-items: end;
+    justify-content: flex-start;
+    align-items: center;
+    text-align: center;
+}
+
 .footer-col a {
     margin-top: 0.5em;
 }
@@ -55,6 +63,7 @@ footer {
 .footer-col p {
     margin-top: 0.5em;
 }
+
 .top-gap{
     margin-top: 1em !important;
 }
@@ -94,6 +103,23 @@ footer {
 
 /* Sections */
 .sg1 {
+    background-image: url("/img/residential-dark.png");
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    padding: 20% 50% 0% 10%;
+    animation: slide-top 1.6s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-items: center;
+    justify-content: center;
+    align-content: center;
+    
+}
+
+.sg1-c {
     background-image: url("/img/city-dark.png");
     background-size: cover;
     height: 100%;
@@ -196,6 +222,91 @@ footer {
     animation: slide-top 1.6s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
 }
 
+.sg9 {
+    background-color: #0090FF;
+    height: auto;
+    width: 100%;
+    padding: 2em;
+    display: grid;
+    box-sizing: border-box;
+    flex-direction: row;
+    align-items: center;
+    animation: slide-top 1.6s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+.sg10 {
+    background-color: white;
+    background-image: url("/img/cooling.png");
+    height: 60em;
+    width: 100%;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+    animation: slide-top 1.6s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+.sg11 {
+    background-image: url("/img/reviews.png");
+    background-size: cover;
+    background-position: 50%;
+    height: 30em;
+    width: 100%;
+    padding: 3% 6% 3% 67%;
+    
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-items: center;
+    justify-content: center;
+    align-content: center;
+    animation: slide-top 1.6s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+.sg12 {
+    background-color: white;
+    height: auto;
+    padding: 10em 0em;
+    width: 100%;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    overflow: hidden;
+    align-items: center;
+    justify-content: center;
+    animation: slide-top 1.6s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+
+
+
+.promo-card {
+    background-color: #ffffff;
+    filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.161));
+    height: 17.8125em;
+    width: 25.8125em;
+    margin: 1em;
+    box-sizing: border-box;
+    overflow: hidden;
+    padding: 2%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.promo-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+}
+
+.promo-icon {
+    width: 7em;
+}
+
 .form-schedule {
     height: 100%;
     width: 140%;
@@ -262,7 +373,9 @@ footer {
 
 .line-3 {
     width: 6em;
+    height: 0.2em;
     margin-top: 1em;
+    box-sizing: border-box;
 }
 .line-4 {
     height: 100%;
@@ -298,8 +411,14 @@ footer {
 .black {
     color: black;
 }
+.cross {
+    text-decoration: line-through;
+}
 .blue {
     color: #0090FF;
+}
+.red {
+    color: #ff0000;
 }
 .grey {
     color: grey;
@@ -375,6 +494,11 @@ footer {
     margin: 0%;
 }
     
+.text-small-custom {
+font-size: 1.75em;
+margin: 0%;
+}
+
 .text-small {
 font-size: 1em;
 margin: 0%;
@@ -436,6 +560,10 @@ margin-left: 1em;
     justify-content: center;
     padding: 25% 5% 0% 3%;
 }
+.about-2 {
+    justify-content: center;
+    padding: 0% 4% 0% 3%;
+}
 
 /* List Items */
 .list-container ul {
@@ -462,9 +590,35 @@ margin-left: 1em;
 
 
 /* SVG */
+.landing-logo {
+    margin: 1em 0em;
+    width: 20em;
+    fill: white;
+    
+}
 .icon-award {
     margin: 5em 5em;
     fill: white;
+}
+
+.icon-better {
+    width: 120px;
+    margin: 1em 0em;
+    fill: white;
+}
+.icon-nate {
+    width: 120px;
+    margin: 5em 0em 1em 0em;
+    fill: white;
+}
+
+.word-award {
+    margin: 0em 0em 0em 2em;
+}
+
+.word-container {
+    align-items: center;
+    margin: 4em;
 }
 
 .icon-form {
