@@ -56,21 +56,34 @@ router.get('/residential/special-finances', (req, res) => {
     res.render('special-finances', { pageTitle: 'GIANT HVAC | Residential | Coupons'},);
 });
 
+// Commercial
 router.get('/commercial', (req, res) => {
     res.render('com', { pageTitle: 'GIANT HVAC | Commercial'},);
 });
 
+router.get('/commercial/about', (req, res) => {
+    res.render('about-com', { pageTitle: 'GIANT HVAC | Commercial'},);
+});
 
+router.get('/commercial/rooftop-unit', (req, res) => {
+    res.render('rooftop-unit-com', { pageTitle: 'GIANT HVAC | Commercial'},);
+});
 
+router.get('/commercial/duct-work', (req, res) => {
+    res.render('duct-work-com', { pageTitle: 'GIANT HVAC | Commercial'},);
+});
 
+router.get('/commercial/refrigeration', (req, res) => {
+    res.render('refrigeration-com', { pageTitle: 'GIANT HVAC | Commercial'},);
+});
 
-
-
+router.get('/commercial/maintenance', (req, res) => {
+    res.render('maintenance-com', { pageTitle: 'GIANT HVAC | Commercial'},);
+});
 
 router.get('*', (req, res) => {
     res.render('404', { pageTitle: 'GIANT HVAC | Residential | Coupons'},);
 });
-
 
 
 module.exports = router;

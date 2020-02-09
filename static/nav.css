@@ -53,7 +53,7 @@
   .dropdown:hover .dropbtn {background-color: #ddd;}
 
 nav {
-    padding: 8px;
+    padding: 12px;
     background-color: rgba(0, 0, 0, 0);
     position: fixed;
     top: 0;
@@ -61,8 +61,8 @@ nav {
 
 .logo {
     float: left;
-    margin-left: 64px;
-    margin-top: 0.55em;
+    margin-left: 5em;
+    margin-top: 0.75em;
     font-weight: 800;
     font-size: 1.25em;
 }
@@ -70,10 +70,11 @@ nav {
 .logo:before {
     content: " ";
     background: url("/svg/giant.svg");
+    background-size: contain;
     position: absolute;
     display: block;
-    width: 4.5em;
-    height: 2.5em;
+    width: 5.5em;
+    height: 1.75em;
     background-repeat: no-repeat;
     left: 1em;
     top: 1.1em;
@@ -216,14 +217,14 @@ nav ul li a {
 @media screen and (max-width: 1200px) {
     
     .logo {
-        margin-left: 80px;
-        margin-top: 4em;
+        margin-left: 6em;
+        margin-top: 3.5em;
         font-size: 1.5em;
     }
 
     .logo:before {
         left: 2em;
-        top: 4.2em;
+        top: 3.2em;
     }
     
 
@@ -369,8 +370,8 @@ nav ul li a {
 @media screen and (max-width: 864px) {
     
     .logo {
-        margin-left: 80px;
-        margin-top: 4em;
+        margin-left: 5.5em;
+        margin-top: 4.5em;
         font-size: 1.5em;
     }
 
@@ -379,7 +380,6 @@ nav ul li a {
         top: 4.2em;
     }
     
-
     .sign-in {
         margin-right: 2em;
         margin-top: 3.5em;

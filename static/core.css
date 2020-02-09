@@ -224,14 +224,16 @@ footer {
 
 .sg9 {
     background-color: #0090FF;
-    height: auto;
+    height: 12em;
     width: 100%;
     padding: 2em;
     display: grid;
     box-sizing: border-box;
+    overflow: hidden;
     flex-direction: row;
     align-items: center;
     animation: slide-top 1.6s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+    
 }
 
 .sg10 {
@@ -278,6 +280,22 @@ footer {
     justify-content: center;
     animation: slide-top 1.6s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
 }
+
+.sg13 {
+    background-color: white;
+    height: auto;
+    padding: 2em 0em;
+    width: 100%;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    overflow: hidden;
+    align-items: center;
+    justify-content: center;
+    animation: slide-top 1.6s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
 
 
 
@@ -382,7 +400,18 @@ footer {
     padding: 5% 0%;
     box-sizing: border-box;
 }
+
+.line-5 {
+    width: 6em;
+    margin: 1em 0em;
+}
 /* ---------------------- */
+
+.title-line {
+    justify-content: center;
+    align-items: center;
+}
+
 
 /* buttons */
 .submit {
@@ -560,10 +589,18 @@ margin-left: 1em;
     justify-content: center;
     padding: 25% 5% 0% 3%;
 }
+
 .about-2 {
     justify-content: center;
     padding: 0% 4% 0% 3%;
 }
+
+.about-3 {
+    justify-content: center;
+    padding: 14% 5% 0% 3%;
+}
+
+
 
 /* List Items */
 .list-container ul {
@@ -601,11 +638,23 @@ margin-left: 1em;
     fill: white;
 }
 
+.branding-icons {
+    width: 100px;
+    margin: 1em 1.5em;
+    fill: white;
+}
+
+.check-us {
+    width: 400px;
+    margin-bottom: 3em;
+}
+
 .icon-better {
     width: 120px;
     margin: 1em 0em;
     fill: white;
 }
+
 .icon-nate {
     width: 120px;
     margin: 5em 0em 1em 0em;
@@ -619,6 +668,10 @@ margin-left: 1em;
 .word-container {
     align-items: center;
     margin: 4em;
+}
+.image-container {
+    align-items: center;
+    margin: 1em;
 }
 
 .icon-form {
