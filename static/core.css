@@ -96,8 +96,10 @@ footer {
 }
 .truck {
     height: 100%;
-    overflow-y: visible;
+    width: 120%;
+    overflow: none;
     position: relative;
+    background: url('/img/truck.png') no-repeat;
 }
 /* ---------------------- */
 
@@ -214,7 +216,6 @@ footer {
     background-color: white;
     height: 50em;
     width: 100%;
-    box-sizing: border-box;
     display: flex;
     flex-direction: row;
     overflow: hidden;
@@ -296,9 +297,17 @@ footer {
     animation: slide-top 1.6s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
 }
 
-
-
-
+.sg14 {
+    background-color: white;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    animation: slide-top 1.6s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
 
 .promo-card {
     background-color: #ffffff;
@@ -404,6 +413,11 @@ footer {
 .line-5 {
     width: 6em;
     margin: 1em 0em;
+}
+.line-6 {
+
+    width: 6em;
+    margin: 1em 0em 1em 0em;
 }
 /* ---------------------- */
 
@@ -600,6 +614,10 @@ margin-left: 1em;
     padding: 14% 5% 0% 3%;
 }
 
+.extend {
+    width: 150%;
+}
+
 
 
 /* List Items */
@@ -680,7 +698,6 @@ margin-left: 1em;
 }
 
 .icon-container {
-
     height: 100%;
     width: 40%;
     box-sizing: border-box;
@@ -761,3 +778,267 @@ margin-left: 1em;
 ::-webkit-scrollbar-corner {
     background: transparent;
 }
+/* ---------------------- */
+
+/* Media Queries */
+@media only screen and (max-width: 64em) {
+    .icon-award {
+        width: 6em;
+        margin: 5vw;
+    }
+
+    .sg1 {
+        flex-flow: column;
+        height: 100%;
+        padding: 10% 10%;
+        align-items: center;
+        justify-items: center;
+        text-align: center;
+    }
+    .sg1-c {
+        flex-flow: column;
+        height: 100%;
+        padding: 10% 10%;
+        align-items: center;
+        justify-items: center;
+        text-align: center;
+    }
+
+    .sg2 {
+        flex-flow: column;
+        height: auto;
+        padding: 10% 10%;
+        justify-items: center;
+        align-items: center;
+    }
+
+    .sg6 {
+        flex-flow: column;
+        height: auto;
+        padding: 0% 0% 10% 0%;
+        background: white;
+    }
+
+    .no-pad {
+        padding: 0%;
+    }
+
+    .top-pad {
+        padding-top: 30%;
+    }
+
+    .sg7 {
+        flex-flow: column;
+        height: auto;
+        padding: 20% 10% 10% 10%;
+    }
+
+    .sg8 {
+        flex-flow: column;
+        height: auto;
+        padding-bottom: 15%;
+    }
+    .sg14 {
+        flex-flow: column;
+        padding-bottom: 15%;
+        justify-content: center;
+    }
+
+    .sg9 {
+        flex-flow: column;
+        height: auto;
+    }
+
+    .sg10 {
+        flex-flow: column;
+        height: auto;
+        padding: 20% 0% 0% 0%;
+        background: none;
+    }
+
+    .info-bit {
+        align-items: center;
+    }
+
+    .sg3 {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .sg4 {
+        flex-flow: column;
+        height: auto;
+    }
+
+    .word-container {
+        align-items: center;
+        margin: 6vw;
+    }
+
+    .truck {
+        height: 50vw;
+        width: 100%;
+        padding: 20% 0% 0% 0%;
+        background-position: center;
+        background-size: 50%;
+        background-image: url("/img/truck-m.png");
+    }
+
+    .about {
+        align-items: center;
+        text-align: center;
+        padding: 0% 12%;
+    }
+
+    .about-2 {
+        align-items: center;
+        text-align: center;
+        padding: 0% 12%;
+    }
+
+    .about-3 {
+        align-items: center;
+        text-align: center;
+        padding: 12% 12%;
+    }
+
+    .check-us {
+        width: 300px;
+    }
+    
+    .air-conditioner {
+        width: 50vw;
+        height: inherit;
+        padding-bottom: 10vw;
+    }
+
+    .family-about {
+        width: inherit;
+    }
+
+    .family-c {
+        display: none;
+    }
+
+    .info-bit {
+        align-items: center;
+        text-align: center;
+        display: contents;
+        padding: 0% 12%;
+    }
+    .info-bit-2 {
+        align-items: center;
+        text-align: center;
+        padding: 0% 12%;
+    }
+
+    .info-bit-3 {
+        align-items: center;
+        text-align: center;
+        box-sizing: border-box;
+        padding: 0% 10% 10% 10% !important;
+    }
+
+    .text-glarge {
+        font-size: 3em;
+    }
+
+    .line-2 {
+        display: none;
+    }
+
+    .form-schedule {
+        width: 100%;
+        background: white;
+        justify-content: center;
+    }
+
+    footer {
+        height: auto;
+        justify-items: center;
+        flex-direction: row;
+        flex-wrap: wrap;
+        padding-top: 10vw;
+    }
+
+    .footer-col {
+        align-items: center;
+        text-align: center;
+        margin: 1em 2em;
+    }
+
+    .extend {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 25.875em) {
+
+    .form {
+        filter: none;
+    }   
+
+    .sg2 {
+        padding: 10% 6%;
+        align-items: center;
+    }
+
+    .sg6 {
+        padding: 0% 0% 0% 0%;
+    }
+
+    .sg5 {
+        flex-flow: column;
+        height: 60%;
+        padding: 10% 10%;
+        justify-items: center;
+        align-items: center;
+        text-align: center;
+        background-image: linear-gradient(to right top, #051937, #004d7a, #008793, #00bf72, #a8eb12);
+    }
+
+    .sg11 {
+        flex-flow: column;
+        height: 60%;
+        padding: 10% 10%;
+        justify-items: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .list-container {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        justify-items: center;
+    }
+
+    .list {
+        margin: 0%;
+    }
+
+    .list:nth-child(2) {
+        padding: 0%;
+
+    }
+
+    .input {
+        height: 5vw;
+    }
+
+    .text-medium {
+        font-size: 1.5em;
+    }
+
+    .branding-icons {
+        width: 32vw;
+    }
+
+}
+
+@media only screen and (max-width: 23.4375em) {
+
+}
+
+
+/* ---------------------- */

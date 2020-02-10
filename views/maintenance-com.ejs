@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<%- include('partials/head.ejs') %>
+<%- include('partials/navbar-com.ejs') %>
+<link
+    href="https://fonts.googleapis.com/css?family=Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&display=swap"
+    rel="stylesheet">
+
+<body>
+    <div class="sg7">
+
+        <div class="align-group-column info-bit">
+            <p class="cap-800 black text-glarge">Maintenance</p>
+            <p class="normal-200 black">Here at GIANT we have completed over 40,000 repairs around the Chicagoland area in our 30+ years of service. We have worked with customers in all sectors and of all different types of needs and we always work to provide the best solutions at an unbeatable price. We prioritize accuracy and customer satisfaction when it comes to our speedy repairs and day or night we will do our best to serve you!</p>
+            <img class="line" src="/svg/blue-line.svg">
+            <div class="list-container">
+                <ul class="list">
+                    <li><img class="icon" src="/svg/money.svg">
+                        <p class="text-list">Cost Effective</p>
+                    </li>
+                    <li><img class="icon" src="/svg/routine.svg">
+                        <p class="text-list">Routine Maintenance</p>
+                    </li>
+                    <li><img class="icon" src="/svg/verified.svg">
+                        <p class="text-list">Guaranteed Maintenance</p>
+                    </li>
+                    <li><img class="icon" src="/svg/power.svg">
+                        <p class="text-list">Energy Efficient</p>
+                    </li>
+                </ul>
+            </div>
+            <p class="cap-800 black text-micro" style="margin-top: 5em;">Reach out to our team to schedule a repair service or consultation today!</p>
+        </div>
+        <div class="form-schedule">
+            <div class="form form align-group-row">
+                <div class="icon-container align-group-column">
+                    <img class="icon-form" src="/svg/bbb-blue.svg">
+                    <img class="icon-form" src="/svg/cert-tech-blue.svg">
+                    <img class="icon-form" src="/svg/24-7-blue.svg">
+                </div>
+                <img class="line-4" src="/svg/blue-line-v.svg">
+                <form class="form-form align-group-column">
+                    <div class="align-group-column" style="width: inherit;">
+                        <p class="cap-800 text-medium black">Schedule</p>
+                        <p class="normal-400 text-small black">your appointment</p>
+                    </div>
+                    <input class="black input normal-400" type="name" placeholder="Full Name">
+                    <input class="black input normal-400" type="email" placeholder="Email Address">
+                    <input class="black input normal-400" type="phone" placeholder="Phone Number">
+                    <input class="black input normal-400" type="address" placeholder="Full Address">
+                    <textarea class="black input normal-400" type="text"
+                        placeholder="Describe your appointment request..."></textarea>
+                    <a id="submit" class="submit text-small white cap-400">Submit </a>
+                </form>
+            </div>
+        </div>
+    </div>
+    <%- include('partials/footer-com.ejs') %>
+</body>
+
+</html>
