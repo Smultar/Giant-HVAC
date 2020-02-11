@@ -524,8 +524,8 @@ nav ul li a {
 @media screen and (max-width: 400px) {
     
     .logo {
-        margin-left: 80px;
-        margin-top: 4em;
+        margin-left: 0em;
+        margin-top: 7em;
         font-size: 1.5em;
     }
 

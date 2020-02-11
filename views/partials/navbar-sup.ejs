@@ -1,0 +1,47 @@
+<link rel="stylesheet" href="/nav.css">
+<nav class="fixed-top" id="bruh" onload="fade()">
+    <div class="top-line"></div>
+    <input type="checkbox" id="nav" class="hidden" onclick="myFunction()">
+    <label for="nav" class="nav-btn">
+        <i></i>
+        <i></i>
+        <i></i>
+    </label>
+    <div class="nav-wrapper">
+        <span class="logo"><a href="/">| supplies</a></span>
+        <ul>
+            <li><a class="menu-link" href="/supplies">home</a></li>
+            <li><a class="menu-link" href="/commercial">commercial</a></li>
+            <li><a class="menu-link" href="/residential">residential</a></li>
+            <li><a class="menu-link" href="https://ftlfinance.com/" target="_blank">financing</a></li>
+            <li><a class="menu-link contact" href="/contact">contact</a></li>
+        </ul>
+    </div>
+</nav>
+
+<script>
+    function myFunction() {
+        // Get the checkbox
+        var checkBox = document.getElementById("nav");
+        // Get the output text
+        var fixedClass = document.getElementById("bruh");
+        console.log("something")
+        // If the checkbox is checked, display the output text
+        if (checkBox.checked == true) {
+            fixedClass.style.height = "100%";
+            fixedClass.style.padding = "0%";
+            fixedClass.style.filter = "none";
+        } else {
+            fixedClass.style.height = "auto";
+            fixedClass.style.padding = "8px";
+
+        }
+    }
+
+    function fade() {
+        if (screen.width < 1200) {
+            var fixedClass = document.getElementById("bruh");
+            fixedClass.style.filter = "0";
+        }
+    }
+</script>

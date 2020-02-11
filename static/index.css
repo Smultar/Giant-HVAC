@@ -160,3 +160,69 @@ a:hover, a:visited, a:link, a:active {
               opacity: 1;
     }
 }
+
+
+@media only screen and (max-width: 64em) {
+    .select-container {
+        flex-flow: column;
+    }
+
+    .select-item {
+        height: 20vw;
+        width: 60vw;
+    }
+
+    .lines {
+        padding: 3vw 5vw 0vw 5vw;
+    }
+
+    .lines hr {
+        display: none;
+    }
+    .title {
+        margin: 4vw 0em;
+    }
+    .sub-title {
+        margin: -4vw 0em 0em 0em;
+    }
+
+    .giant {
+        margin-top: 9%;
+    }
+    .giant img {
+        width: 25vw;
+    }
+}
+@media only screen and (max-width: 25.875em) {
+   
+    .select-item {
+        height: 30vw;
+        width: 75vw;
+        margin: 1em 3em;
+    }
+    
+    .lines {
+        padding: 3vw 5vw 0vw 5vw;
+    }
+
+    .lines hr {
+        display: none;
+    }
+    
+    .title {
+        margin: 4vw 0em;
+        font-size: 1.2em;
+    }
+
+    .sub-title {
+        margin: -4vw 0em 0em 0em;
+        font-size: 0.75em;
+    }
+
+    .giant {
+        margin-top: 20%;
+    }
+    .giant img {
+        width: 25vh;
+    }
+}

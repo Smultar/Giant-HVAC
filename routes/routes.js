@@ -77,6 +77,14 @@ router.get('/commercial/maintenance', (req, res) => {
     res.render('maintenance-com', { pageTitle: 'GIANT HVAC | Commercial Maintenance'},);
 });
 
+router.get('/supplies', (req, res) => {
+    res.render('supplies', { pageTitle: 'GIANT HVAC | Supplies'},);
+});
+
+router.get('/contact', (req, res) => {
+    res.render('contact', { pageTitle: 'GIANT HVAC | Contact'},);
+});
+
 router.get('*', (req, res) => {
     res.render('404', { pageTitle: 'GIANT HVAC | Error 404'},);
 });
