@@ -22,7 +22,7 @@
   "license": "ISC",
   "dependencies": {
     "body-parser": "^1.19.0",
-    "nodemailer": "^6.3.0",
+    "nodemailer": "^6.4.16",
     "ejs": "^2.6.1",
     "express": "^4.16.3",
     "express-session": "^1.16.2",
